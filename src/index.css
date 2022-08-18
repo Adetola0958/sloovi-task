@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.sidebar {
+  background-color: rgb(15, 65, 49);
+  height: 500vh;
+}
+
+/* @media screen and(max-width: 546px) {
+  .sidebar {
+    display: none;
+    background-color: red;
+  }
+} */
+
+.real__form {
+  background-color: aqua;
+}
+
+.task_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task_headers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.input-style-4 {
+  display: flex;
+  margin-bottom: 30px; 
+  align-items: center;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #262d3f;
+    display: block;
+    margin-bottom: 10px; 
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+input,
+textarea, select {
+    width: 100%;
+    background: rgba(239, 239, 239, 0.5);
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 16px;
+    color: #5d657b;
+    resize: none;
+    transition: all 0.3s; 
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #4a6cf7;
+  background: #fff; 
+}
+
+input[type="date"], input[type="time"],
+textarea[type="date"],
+textarea[type="time"],
+select {
+  background: transparent; 
+}
+
+.parent__field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task_btns {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.task_btns .submit_btn {
+  background-color: green;
+  border-radius: 5px;
+  border: 1px solid green;
+  padding: 3.5px 25px;
+  font-size: .8rem;
+  color: #ffffff;
+}
+
+.task_btns .cancle-btn {
+  background-color: inherit;
+  border-radius: 5px;
+  border: #ffffff;
+  padding: 3.5px 25px;
+  font-size: .8rem;
+  color: #000000;
+  margin-right: 10px;
+}
